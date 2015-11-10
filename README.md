@@ -1,2 +1,7 @@
-# react_demo
-react练习
+## 说明
+
+```npm install```
+
+```npm start```
+
+```open http://localhost:3000/```

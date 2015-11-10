@@ -11,5 +11,5 @@ new WebpackDevServer(webpack(config), {
         console.log(err);
     }
 
-    console.log('Listening at localhost:3000');
+    console.log("==> 🌎  Listening on port 3000. Open up http://localhost:3000/ in your browser.");
 });
