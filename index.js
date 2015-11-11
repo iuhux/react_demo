@@ -1,16 +1,10 @@
-import React from 'react';
-import { render } from 'react-dom';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
-import App from './containers/App';
-import todoApp from './reducers';
+import 'babel-core/polyfill'
 
-let store = createStore(todoApp);
+import React from 'react'
+import { render } from 'react-dom'
+import Root from './containers/Root'
 
-let rootElement = document.getElementById('root');
 render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  rootElement
-);
+  <Root />,
+  document.getElementById('root')
+)
